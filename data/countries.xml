@@ -1,13 +1,14 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <data>
 	<country name="China">
 		<economy gni="5700018000000" pp="4270"/>
 		<industrialisation rd="1537000000000"/>
 		<population amount="1339724852" density="140"/>
         <climate>
-            <temp aht="-10" ratio="40" />
-            <temp aht="5" ratio="10" />
-            <temp aht="20" ratio="50" />
+            <temp aht="-10" ratio="25" />
+            <temp aht="25" ratio="4" />
+            <temp aht="19" ratio="25" />
+            <temp aht="18" ratio="25" />
         </climate>
 	</country>
 </data>
