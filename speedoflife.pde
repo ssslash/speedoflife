@@ -4,7 +4,6 @@ ArrayList countries;
 
 void setup() { 
   gui = new GUI();
-  xmlReader = new XMLReader("countries.xml");
   xmlReader = new XMLReader();
   xmlReader.importData("countries.xml");
   countries = xmlReader.getCountries();

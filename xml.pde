@@ -1,10 +1,7 @@
 class XMLReader {
-    XML xml;
-
   XML xml;
   ArrayList countries;
   // Constructor
-  XMLReader(String file) { 
   XMLReader() { 
     
   }
@@ -12,9 +9,6 @@ class XMLReader {
   void importData(String file) {
     xml = loadXML(file);
     
-    int num = xml.getChildCount();
-    for (int i = 0; i < num; i++) {
-      println("lala" + num);    
     int countryNum = xml.getChildCount();
     countries = new ArrayList();
 
@@ -39,7 +33,6 @@ class XMLReader {
         countries.add(data);
 
     }
-    
   }
   
   ArrayList getCountries() {
