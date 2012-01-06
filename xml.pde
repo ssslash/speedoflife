@@ -3,12 +3,10 @@ class XMLReader {
 
   // Constructor
   XMLReader(String file) { 
-    xml = new XML(file);
+    xml = loadXML(file);
+    
     int num = xml.getChildCount();
-       
-
     for (int i = 0; i < num; i++) {
-       
       println("lala" + num);    
     }
     
