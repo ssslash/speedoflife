@@ -1,9 +1,17 @@
 class XMLReader {
-  String File;
+    XML xml;
 
   // Constructor
   XMLReader(String file) { 
-    File = file;
+    xml = new XML(file);
+    int num = xml.getChildCount();
+       
+
+    for (int i = 0; i < num; i++) {
+       
+      println("lala" + num);    
+    }
+    
   }
 
 }

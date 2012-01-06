@@ -1,5 +1,4 @@
 class GUI {
-  
   // Constructor
   GUI() { 
   
