@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-	<country name="China">
+	<country name="china">
 		<economy gni="5700018000000" pp="4270"/>
-		<industrialisation rd="1537000000000"/>
+		<industrialisation rd="153700000000"/>
 		<population amount="1339724852" density="140"/>
         <climate>
-            <temp aht="-10" ratio="25" />
-            <temp aht="25" ratio="4" />
-            <temp aht="19" ratio="25" />
-            <temp aht="18" ratio="25" />
+            <temp aht="26" ratio="4"/>
+            <temp aht="20" ratio="25"/>
+            <temp aht="9" ratio="21"/>
+            <temp aht="-10" ratio="25"/>
+            <temp aht="18" ratio="25"/>
         </climate>
+        <cultural value="20"/>
 	</country>
+    
+	<country name="usa">
+		<economy gni="14600828000000" pp="47120"/>
+		<industrialisation rd="405300000000"/>
+		<population amount="312384000" density="32"/>
+        <climate>
+            <temp aht="26" ratio="4"/>
+            <temp aht="20" ratio="25"/>
+            <temp aht="9" ratio="21"/>
+            <temp aht="-10" ratio="25"/>
+            <temp aht="18" ratio="25"/>
+        </climate>
+        <cultural value="91"/>
+        
+	</country>
+	<country name="india">
+		<economy gni="1830392000000" pp="3560"/>
+		<industrialisation rd="361000000000"/>
+		<population amount="1210193422" density="368"/>
+        <climate>
+            <temp aht="26" ratio="4"/>
+            <temp aht="20" ratio="25"/>
+            <temp aht="9" ratio="21"/>
+            <temp aht="-10" ratio="25"/>
+            <temp aht="18" ratio="25"/>
+        </climate>
+        <cultural value="48"/>
+	</country>
+    
+    
 </data>
