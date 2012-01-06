@@ -1,0 +1,7 @@
+class GUI {
+  
+  // Constructor
+  GUI() { 
+  
+  }
+}
