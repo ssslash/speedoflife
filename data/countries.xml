@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-	<country>
-		
+	<country name="China">
+		<economy GNI="5700018000000">
+		<economy GNI_PP="4270">
+		<industrialisation RD="1537000000000">
+		<population amount="1339724852">
+		<density amount="140">
 	</country>
 </data>
